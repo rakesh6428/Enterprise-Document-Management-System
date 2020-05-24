@@ -1,0 +1,63 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UploadFile</servlet-name>
+  	<display-name>UploadFile</display-name>
+  	<description></description>
+  	<servlet-class>UploadFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DocumentApproval</servlet-name>
+  	<display-name>DocumentApproval</display-name>
+  	<description></description>
+  	<servlet-class>DocumentApproval</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmailServlet</servlet-name>
+  	<display-name>EmailServlet</display-name>
+  	<description></description>
+  	<servlet-class>EmailServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignIn</servlet-name>
+  	<display-name>SignIn</display-name>
+  	<description></description>
+  	<servlet-class>SignIn</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<display-name>SignUp</display-name>
+  	<description></description>
+  	<servlet-class>SignUp</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  	<servlet-name>UploadFile</servlet-name>
+  	<url-pattern>/UploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DocumentApproval</servlet-name>
+  	<url-pattern>/DocumentApproval/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmailServlet</servlet-name>
+  	<url-pattern>/EmailServlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignIn</servlet-name>
+  	<url-pattern>/SignIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>  
+  <welcome-file>login.jsp</welcome-file> 
+  
+  </welcome-file-list>  
+</web-app>

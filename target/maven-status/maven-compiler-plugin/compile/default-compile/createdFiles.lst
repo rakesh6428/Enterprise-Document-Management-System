@@ -1,0 +1,10 @@
+BucketList.class
+UploadFile.class
+CognitoUtil.class
+EmailServlet.class
+SignIn.class
+DocumentApproval.class
+SignUp.class
+dmsMaven/BucketList.class
+dmsMaven/User.class
+EmailService.class
